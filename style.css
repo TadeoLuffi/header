@@ -1,0 +1,122 @@
+/* Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ulheader{
+    list-style: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    gap: 30px
+}
+p{
+    color: rgb(255, 60, 0);
+}
+
+#logoEpic{
+    width: 55px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
+
+#Car{
+     width: 675px;
+     height: 600px;
+}
+
+#imgst{
+    width: 670px;
+    height: 600px;
+}
+
+.sectionBanner{
+    display: flex;
+}
+
+
+div.banner{
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fornite{
+    background-image: url("./imagenes/forniteBanner.webp");
+}
+
+.unreal{
+    background-image: url("./imagenes/unrealengineBanner.jpg");
+}
+
+h2{
+   padding: 220px;
+}
+
+h3{
+  padding: 230px;
+  color: white;
+}
+
+i{
+    color: rgb(255, 238, 0);
+}
+
+.ulfooter i {
+    color: rgb(255, 60, 0);
+    display: flex;
+    padding-left: 2%;
+}
+
+footer{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.hr-footer{
+    border: rgb(255, 60, 0) solid 2px;
+}
+.hr-footer2{
+    border: rgb(255, 60, 0) solid 2px;
+}
+
+h4{
+   color: rgb(255, 60, 0);
+   padding-left: 20px;
+}
+
+h5{
+    color: rgb(255, 230, 0);
+    padding-left: 30px;
+}
+h6{
+    color: rgb(183, 0, 255);
+    padding-left: 30px;
+}
+.ul-footer2{
+
+}
+button{
+    background-color: rgb(41, 41, 41) ;
+    border:rgb(41, 41, 41);
+    padding-left: 49%;
+    padding-right: 49%;
+}
+a{
+    text-decoration: none;
+}
+
