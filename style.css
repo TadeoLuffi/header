@@ -129,7 +129,7 @@ a{
 
 @media (max-width: 930px) {
     header{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .navegacion{
         display: none;
