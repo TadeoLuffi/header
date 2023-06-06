@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/*  header  */
+
 .ulheader{
     list-style: none;
 }
@@ -120,3 +122,19 @@ a{
     text-decoration: none;
 }
 
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 930px) {
+    header{
+        justify-content: space-between;
+    }
+    .navegacion{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
