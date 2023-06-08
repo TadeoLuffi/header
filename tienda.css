@@ -1,0 +1,27 @@
+/* Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.imgFornite, .imgFallguys, .imgInfinityblade, .imgShadowcomplex, .imgUnrealengine, .imgRocketleague {
+    width: 200px;
+    display: flex;
+    border-right: 2px solid white;
+    padding-right: 15px;
+
+}
+main{
+    background-color: black;
+    align-items: center;
+    padding: 5px 30px;
+    gap: 30px
+}
+        
+    
